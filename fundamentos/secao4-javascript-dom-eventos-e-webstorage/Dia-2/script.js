@@ -1,0 +1,10 @@
+const where = document.getElementById("where-are-you");
+const parente = where.parentElement;
+const primeiroFi = parente.firstElementChild;
+parente.style.color="purple";
+where.firstElementChild.innerText="Texto inserido";
+primeiroFi.innerText="asdsdsadsadsas";
+where.previousElementSibling.style.color="red";
+where.nextSibling;
+where.nextElementSibling.innerText="adada";
+parente.lastElementChild.previousElementSibling.style.color="green";
