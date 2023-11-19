@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador Senhas</title>
+    <title>Exercicio</title>
 </head>
+
 <body>
-    <button>Gerar senha</button>
-    <h2></h2>
-    <script src="src/main.js" type="module"></script>
+    <main>
+        <h1>Valida Campos</h1>
+        <form onsubmit="event.preventDefault() " id="formValida" action="">
+            <input id="insertValue" placeholder=" Insira algo aqui" type="text">
+            <select name="" id="selectDocument">
+                <option id="CPF" value="CPF">CPF</option>
+                <option id="EMAIL" value="EMAIL">EMAIL</option>
+            </select>
+            <button>Validar</button>
+        </form>
+        <h3>Digite o valor, escolha a opcao e clique para validar</h3>
+    </main>
+    <script src="./src/script.js" type="module"></script>
 </body>
+
 </html>
