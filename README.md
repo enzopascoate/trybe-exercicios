@@ -1,1 +1,1 @@
-Este repositorio possui o intuito de arquivar e catalogar as solucoes de exercicios elaboradas por Enzo Pascoate ao longo de sua jornada na Trybe.
+Este repositorio possui o intuito de arquivar e exibir as solucoes por mim elaboradas ao longo de minha jornada na Trybe.
